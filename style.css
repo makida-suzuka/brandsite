@@ -1,0 +1,167 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+/*Google font*/
+.crimson-text-regular {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.crimson-text-semibold {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.crimson-text-bold {
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.crimson-text-regular-italic {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.crimson-text-semibold-italic {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.crimson-text-bold-italic {
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+  
+
+
+html{
+    font-size: 100%;
+    font-family: "Crimson Text", serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.7;
+}
+li{
+    list-style: none;
+}
+main{
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------------------------------
+mainvisual
+-------------------------------------------*/
+#mainvisual{
+    width: 90vw;
+    margin: 0 auto;
+}
+#mainvisual img{
+    width: 100%;
+}
+
+/*-----------------------------------------
+header
+-------------------------------------------*/
+#header{
+    width: 90vw;
+    margin: 20px auto 50px auto;
+    display: flex;
+}
+.global-menu ul{
+    display: flex;
+    padding-left: 20px;
+}
+.global-menu ul li{
+    font-size: 0.9rem;
+    margin-left: 40px;
+}
+.global-menu ul li a{
+    color: #000;
+}
+.logo{
+    width: 110px;
+}
+.logo img{
+    width: 100%;
+}
+h1.logo{
+    margin: 0px;
+}
+
+/*-----------------------------------------
+concept
+-------------------------------------------*/
+#concept{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+/* workも同様 */
+.section-title{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0;
+}
+.section-title p{
+    margin: 0;
+}
+.title-en{
+    font-size: 0.9rem;
+}
+.section-img{
+    width: 50%;
+}
+.section-img img{
+    width: 100%;
+}
+.section-text{
+    margin: auto 0;
+    box-sizing: border-box;
+    padding: 50px;
+    width: 50%;
+}
+.message{
+    margin: 30px 0;
+}
+
+/*-----------------------------------------
+work
+-------------------------------------------*/
+#work{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 50px;
+}
+
+/*-----------------------------------------
+footer
+-------------------------------------------*/
+#footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.copyright{
+    margin: 0px;
+    font-size: 0.7rem;
+}
