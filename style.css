@@ -165,3 +165,96 @@ footer
     margin: 0px;
     font-size: 0.7rem;
 }
+
+/*-----------------------------------------
+responsive
+-------------------------------------------*/
+@media screen and (max-width: 767px) {
+
+    /*----------------------------------
+    mainvisual
+    -------------------------------------*/
+    #mainvisual{
+        width: 100%;
+        margin: 0;
+    }
+    #mainvisual img{
+        width: 100%;
+    }
+	
+    /*------------------------------------
+    header
+    -------------------------------------*/
+    #header{
+        width: 100%;
+        justify-content: center;
+        margin: 0 0 10px 0;
+    }
+    .global-menu ul{
+        padding: 0px;
+    }
+    .global-menu ul li{
+        font-size: 0.9rem;
+        margin-left: 20px;
+    }
+    /*------------------------------------
+    concept
+    --------------------------------------*/
+    #concept{
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    /* workも同様 */
+    .section-title{
+        font-size: 1.4rem;
+        font-weight: 300;
+        margin: 0;
+    }
+    .section-title p{
+        margin: 0;
+    }
+    .title-en{
+        font-size: 0.9rem;
+    }
+    .section-img{
+        width: 100%;
+        padding: 20px;
+        padding-bottom: 0px;
+        box-sizing: border-box;
+    }
+    .section-img img{
+        width: 100%;
+    }
+    .section-text{
+        box-sizing: border-box;
+        padding: 20px;
+        padding-top: 0px;
+        width: 100%;
+    }
+    .message{
+        margin: 30px 0;
+    }
+
+    /*-----------------------------------------
+    work
+    -------------------------------------------*/
+    #work{
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    /*-----------------------------------------
+    footer
+    -------------------------------------------*/
+    #footer{
+        margin: 0 auto;
+        display: flex;
+        padding: 20px;
+        margin-bottom: 0px;
+    }
+    .copyright{
+        margin: 0px;
+        font-size: 0.7rem;
+    }
+}
